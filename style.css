@@ -1,0 +1,223 @@
+/* =========================
+   Harmony Archive – Custom CSS
+   ========================= */
+
+/* Genel sayfa arka planı */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Navbar marka vurgusu */
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Kartlar için kurumsal görünüm */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Arama inputu */
+#search {
+  border-radius: 8px;
+}
+
+/* Loading mesajı */
+#loading {
+  font-size: 0.95rem;
+}
+
+/* Footer (ileride eklenebilir) */
+.footer {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.about-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.about-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.about-card h2 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.about-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.about-card h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0d6efd;
+  margin-top: 10px;
+}
+
+.about-card h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0d6efd;
+  margin-top: 10px;
+}
+
+.contact-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.contact-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card h2 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.contact-card p {
+  margin-bottom: 35px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* FORM */
+.contact-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-card input,
+.contact-card textarea {
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+.contact-card button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.contact-card button:hover {
+  background-color: #0b5ed7;
+}
+
+.hero-section {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+
+.hero-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 70px 50px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.hero-card h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #212529;
+}
+
+.hero-card p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 8px;
+  background-color: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-btn:hover {
+  background-color: #0b5ed7;
+}
+
+.detail-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.detail-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.detail-card h2 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.detail-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}

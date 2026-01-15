@@ -1,0 +1,9 @@
+{
+"name":"Harmony Archive",
+"short_name":"Harmony",
+"start_url": "./index.html",
+"display":"standalone",
+"theme_color":"#0d6efd",
+"background_color":"#ffffff",
+"icons":[]
+}

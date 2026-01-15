@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmony Archive</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d6efd">
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Harmony Archive</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="artists.html">Sanatçılar</a>
+      <a class="nav-link" href="about.html">Hakkımızda</a>
+      <a class="nav-link" href="contact.html">İletişim</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO (SADE, BOZMAYAN) -->
+<section class="home-hero">
+  <div class="container mt-2">
+    <h1>Harmony Archive</h1>
+    <p>
+      Sanatçılar, müzik stüdyoları ve prodüksiyon ekipleri için
+      modern ve erişilebilir dijital müzik arşivi.
+    </p>
+    <a href="artists.html" class="btn btn-primary">
+      Sanatçıları Keşfet
+    </a>
+  </div>
+</section>
+
+<!-- ANA İÇERİK -->
+<div class="container mt-4">
+  <p class="mb-4">
+    Müzik stüdyosu ve sanatçı ajansı için geliştirilmiş Progressive Web App.
+  </p>
+
+  <input
+    id="search"
+    class="form-control mb-3"
+    placeholder="Sanatçı ara"
+  >
+
+  <div id="loading" class="alert alert-info">
+    Yükleniyor...
+  </div>
+
+  <div id="artists" class="row"></div>
+</div>
+
+<!-- JS -->
+<script src="js/app.js"></script>
+<script src="js/sw-register.js"></script>
+
+</body>
+</html>
