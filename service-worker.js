@@ -8,10 +8,10 @@ const APP_SHELL = [
   "./about.html",
   "./contact.html",
   "./offline.html",
-  "./css/style.css",
-  "./js/app.js",
-  "./js/artists.js",
-  "./js/detail.js"
+  "./style.css",
+  "./app.js",
+  "./artists.js",
+  "./detail.js"
 ];
 
 self.addEventListener("install", (event) => {
