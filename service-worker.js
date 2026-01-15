@@ -1,17 +1,17 @@
 const CACHE_NAME = "harmony-cache-v1";
 
 const APP_SHELL = [
-  "./",
-  "./index.html",
-  "./artists.html",
-  "./detail.html",
-  "./about.html",
-  "./contact.html",
-  "./offline.html",
-  "./style.css",
-  "./app.js",
-  "./artists.js",
-  "./detail.js"
+  ".",
+  ".index.html",
+  ".artists.html",
+  ".detail.html",
+  ".about.html",
+  ".contact.html",
+  ".offline.html",
+  ".style.css",
+  ".app.js",
+  ".artists.js",
+  ".detail.js"
 ];
 
 self.addEventListener("install", (event) => {
